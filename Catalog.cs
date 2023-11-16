@@ -8,7 +8,7 @@ namespace Lab2ready
 {
     public class Catalog
     {
-        private List<Book> books = new List<Book>();
+        public List<Book> books = new List<Book>();
         public void AddBook(Book book)
         {
             books.Add(book);
